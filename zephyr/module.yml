@@ -1,3 +1,4 @@
+name: zmk-component-alitbkmini
 build:
   settings:
     board_root: .

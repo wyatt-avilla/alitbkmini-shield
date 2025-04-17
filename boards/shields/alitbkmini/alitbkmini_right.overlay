@@ -1,15 +1,16 @@
-/ {
-    matrix {
-        compatible = "zmk,matrix";
-        diode-direction = <0>;
-        rows = <12>;
-        cols = <1>;
-        row-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>, <&gpio0 3 GPIO_ACTIVE_LOW>,
-                    <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 5 GPIO_ACTIVE_LOW>,
-                    <&gpio0 6 GPIO_ACTIVE_LOW>, <&gpio0 7 GPIO_ACTIVE_LOW>,
-                    <&gpio0 8 GPIO_ACTIVE_LOW>, <&gpio0 9 GPIO_ACTIVE_LOW>,
-                    <&gpio0 10 GPIO_ACTIVE_LOW>, <&gpio0 11 GPIO_ACTIVE_LOW>,
-                    <&gpio0 12 GPIO_ACTIVE_LOW>, <&gpio1 1 GPIO_ACTIVE_LOW>;
-        col-gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
-    };
+#include "alitbkmini.dtsi"
+
+&default_transform {
+	col-offset = <6>;
+};
+
+&kscan0 {
+	col-gpios
+		= <&pro_micro_d 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro_d 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro_d 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro_d  5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro_d  7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro_d  8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		;
 };

@@ -1,0 +1,10 @@
+config SHIELD_ALITBKMINI
+    bool
+
+config SHIELD_ALITBKMINI_LEFT
+    def_bool $(shields_list_contains,alitbkmini_left)
+        select SHIELD_ALITBKMINI
+
+config SHIELD_ALITBKMINI_RIGHT
+    def_bool $(shields_list_contains,alitbkmini_right)
+        select SHIELD_ALITBKMINI

@@ -20,4 +20,13 @@ if SHIELD_ALITBKMINI
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_BLE_LOG_LEVEL_DBG
+    default y
+
+config BT_LOG_LEVEL_DBG
+    default y
+
+config BT_SMP
+    default y
+
 endif

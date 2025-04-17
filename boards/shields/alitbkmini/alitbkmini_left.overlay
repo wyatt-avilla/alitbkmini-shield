@@ -1,7 +1,7 @@
 / {
     matrix {
         compatible = "zmk,matrix";
-        diode-direction = <COL2ROW>;
+        diode-direction = <0>;
         rows = <12>;
         cols = <1>;
         row-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>, <&gpio0 3 GPIO_ACTIVE_LOW>,

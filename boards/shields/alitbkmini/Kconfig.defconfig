@@ -1,0 +1,23 @@
+if SHIELD_ALITBKMINI_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "alitbkmini Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ALITBKMINI_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "alitbkmini Right"
+
+endif
+
+if SHIELD_ALITBKMINI
+
+config ZMK_SPLIT
+    default y
+
+endif

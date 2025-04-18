@@ -8,15 +8,12 @@
         label = "KSCAN";
 
 		row-gpios = <&gpio0 0 (GPIO_ACTIVE_LOW)>,
-			<&gpio0 1 (GPIO_ACTIVE_LOW)>,
-			<&gpio0 10 (GPIO_ACTIVE_LOW)>,
-			<&gpio0 11 (GPIO_ACTIVE_LOW)>,
-			<&gpio0 12 (GPIO_ACTIVE_LOW)>,
-			<&gpio1 1 (GPIO_ACTIVE_LOW)>,
-			<&gpio1 2 (GPIO_ACTIVE_LOW)>,
-			<&gpio1 4 (GPIO_ACTIVE_LOW)>;
+			<&gpio0 31 (GPIO_ACTIVE_LOW)>,
+			<&gpio0 29 (GPIO_ACTIVE_LOW)>,
+			<&gpio0 2 (GPIO_ACTIVE_LOW)>,
+			<&gpio1 15 (GPIO_ACTIVE_LOW)>,
 
-        col-gpios = <&gpio0 14 (GPIO_ACTIVE_LOW)>;
+        col-gpios = <&gpio1 6 (GPIO_ACTIVE_LOW)>;
         diode-direction = "row2col";
     };
 };

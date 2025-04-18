@@ -11,4 +11,3 @@ config SHIELD_ALITBKMINI_RIGHT
 
 config SHIELD_ALITBKMINI_TEST
     def_bool $(shields_list_contains,alitbkmini_test)
-        select SHIELD_ALITBKMINI_TEST

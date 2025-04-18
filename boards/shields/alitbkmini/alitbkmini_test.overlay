@@ -7,11 +7,10 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
 
-        row-gpios = <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 5 GPIO_ACTIVE_LOW>,
-                    <&gpio0 6 GPIO_ACTIVE_LOW>, <&gpio0 7 GPIO_ACTIVE_LOW>;
+        row-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW)>;
+        col-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW)>;
 
-        col-gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
-
-        diode-direction = "row2col";
+        diode-direction = "col2row";
     };
 };
+

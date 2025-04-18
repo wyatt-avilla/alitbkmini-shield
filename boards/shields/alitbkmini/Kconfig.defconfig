@@ -15,13 +15,6 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-if SHIELD_ALITBKMINI_TEST
-
-config ZMK_KEYBOARD_NAME
-    default "alitbkmini T"
-
-endif
-
 if SHIELD_ALITBKMINI
 
 config ZMK_SPLIT

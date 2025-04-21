@@ -6,11 +6,12 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
+			display-name = "Base";
 			bindings = <
-	&kp ESC   &kp A &kp B &kp C &kp D &kp E          &kp E &kp D  &kp C     &kp B   &kp A    &kp BSLH
-	&kp TAB   &kp F &kp G &kp H &kp I &kp J          &kp J &kp I  &kp H     &kp G   &kp F    &kp SQT
-	&kp LSHFT &kp K &kp L &kp M &kp N &kp O          &kp O &kp N  &kp M     &kp L   &kp K    &kp RCTRL
-	                &kp A &kp B &kp C                      &kp C  &kp B     &kp A
+	&kp TAB   &kp Q &kp W &kp F   &kp P    &kp B          &kp J    &kp L     &kp U     &kp Y    &kp SEMI  &none
+	&kp ESC   &kp A &kp R &kp S   &kp T    &kp G          &kp M    &kp N     &kp E     &kp I    &kp O     &kp RET
+	&kp LCTRL &kp Z &kp X &kp C   &kp D    &kp V          &kp K    &kp H     &kp COMMA &kp DOT  &kp BSL   &kp LALT
+	                      &kp ESC &kp BSPC &kp LSHIFT     &kp LGUI &kp SPACE &mo 1
 			>;
 		};
 	};

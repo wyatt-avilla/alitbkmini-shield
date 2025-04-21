@@ -24,5 +24,15 @@
                                 &mo 2    &trans    &trans        &trans   &trans    &trans
             >;
         };
+
+        number_misc_layer {
+            display-name = "Number Misc";
+            bindings = <
+    &trans &trans &trans &trans &trans &trans     &trans &kp C_VOL_UP &kp C_PREV &kp C_PP &kp C_NEXT &trans
+    &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7       &kp N8     &kp N9   &kp N0     &trans
+    &trans &trans &trans &trans &trans &trans     &trans &kp C_VOL_DN &kp COMMA  &kp DOT  &trans     &trans
+                         &trans &trans &trans     &trans &trans       &trans
+            >;
+        };
     };
 };

@@ -10,19 +10,19 @@
             bindings = <
     &kp TAB   &kp Q &kp W &kp F   &kp P    &kp B          &kp J    &kp L     &kp U     &kp Y   &kp SEMI &none
     &kp ESC   &kp A &kp R &kp S   &kp T    &kp G          &kp M    &kp N     &kp E     &kp I   &kp O    &kp RET
-    &kp LCTRL &kp Z &kp X &kp C   &kp D    &kp V          &kp K    &kp H     &kp COMMA &kp DOT &kp BSL  &kp LALT
+    &kp LCTRL &kp Z &kp X &kp C   &kp D    &kp V          &kp K    &kp H     &kp COMMA &kp DOT &kp FSLH &kp LALT
                           &kp ESC &kp BSPC &kp LSHIFT     &kp LGUI &kp SPACE &mo 1
             >;
         };
 
-//        symbol_layer {
-//            display-name = "Symbol";
-//            bindings = <
-//    &BSLH  &kp GRAVE &trans   &kp UP   &kp PRCNT &kp AT        &kp PLUS &kp MINUS &kp LBKT &kp RBKT &kp EXCL &trans
-//    &trans &kp LEFT  &kp DLLR &kp HASH &kp RIGHT &kp CARET     &kp STAR &kp EQUAL &kp LPAR &kp RPAR &trans   &trans
-//    &trans &trans    &trans   &kp DOWN &kp TILDE &kp SQT       &kp AMPS &kp DQT   &kp LBRC &kp RBRC &kp PIPE &trans
-//                              &mo 2    &trans    &trans        &trans   &trans    &trans
-//            >;
-//        };
+        symbol_layer {
+            display-name = "Symbol";
+            bindings = <
+    &BSLH  &kp GRAVE &trans   &kp UP   &kp PRCNT &kp AT        &kp PLUS &kp MINUS &kp LBKT &kp RBKT &kp EXCL &trans
+    &trans &kp LEFT  &kp DLLR &kp HASH &kp RIGHT &kp CARET     &kp STAR &kp EQUAL &kp LPAR &kp RPAR &trans   &trans
+    &trans &trans    &trans   &kp DOWN &kp TILDE &kp SQT       &kp AMPS &kp DQT   &kp LBRC &kp RBRC &kp PIPE &trans
+                              &mo 2    &trans    &trans        &trans   &trans    &trans
+            >;
+        };
     };
 };

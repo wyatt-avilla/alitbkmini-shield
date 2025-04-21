@@ -14,5 +14,15 @@
 	                      &kp ESC &kp BSPC &kp LSHIFT     &kp LGUI &kp SPACE &mo 1
 			>;
 		};
+
+		symbol_layer {
+			display-name = "Symbol";
+			bindings = <
+	&BSLH    &kp GRAVE &trans   &kp UP   &kp PRCNT &kp AT        &kp PLUS &kp MINUS &kp LBKT &kp RBKT &kp EXCL &trans
+	&trans   &kp LEFT  &kp DLLR &kp HASH &kp RIGHT &kp CARET     &kp STAR &kp EQUAL &kp LPAR &kp RPAR &trans   &trans
+	&trans   &trans    &trans   &kp DOWN &kp TILDE &kp SQT       &kp AMPS &kp DQT   &kp LBRC &kp RBRC &kp PIPE &trans
+	                            &mo 2    &trans    &trans        &trans   &trans    &trans
+			>;
+		};
 	};
 };

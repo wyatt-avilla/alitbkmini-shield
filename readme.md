@@ -1,3 +1,3 @@
-# Firmware for Aliexpress TBK Mini
+# Firmware for AliExpress TBK Mini
 
 ![Picture](./picture.png)
